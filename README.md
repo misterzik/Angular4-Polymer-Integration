@@ -2,7 +2,7 @@
 
 # Angular 4 + Polymer Integration
 
-Integration between Angular 4 and Polymer to allow the usage of Web Element Compononents. https://www.webcomponents.org/
+Integration between Angular 4 and Polymer to allow the usage of Web Element Components. https://www.webcomponents.org/
  
 
 ![alt text](demo.png "FROM THE VAULT")
