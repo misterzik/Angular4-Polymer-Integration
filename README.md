@@ -1,8 +1,9 @@
 ![alt text](from-the-vault-misterzik.png "FROM THE VAULT")
 
-# Angular4 + Polymer 
+# Angular 4 + Polymer Integration
 
-AngularJS and Jade for Front-end with SocketIO wrapped around express. 
+Integration between Angular 4 and Polymer to allow the usage of Web Element Compononents. https://www.webcomponents.org/
+ 
 
 ![alt text](demo.png "FROM THE VAULT")
 
