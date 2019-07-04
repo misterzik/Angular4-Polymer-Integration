@@ -1,0 +1,9 @@
+/* Global Styles */
+hr {
+	border-top: 1px dashed #8c8b8b;
+}
+
+
+  paper-progress {
+margin: 0 12px;
+  }

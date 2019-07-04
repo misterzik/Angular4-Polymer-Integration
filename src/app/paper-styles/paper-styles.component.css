@@ -1,0 +1,153 @@
+/*
+ * General
+ */
+
+.redlines {
+  background: linear-gradient(0deg, transparent, transparent 3.5px, rgba(255, 0, 0, 0.2) 3.5px, rgba(255, 0, 0, 0.2) 4px);
+  background-size: 100% 4px;
+}
+
+
+/*
+ * Font's
+ */
+
+.paper-font-display4 {
+  @apply --paper-font-display4;
+}
+
+.paper-font-display3 {
+  @apply --paper-font-display3;
+}
+
+.paper-font-display2 {
+  @apply --paper-font-display2;
+}
+
+.paper-font-display1 {
+  @apply --paper-font-display1;
+}
+
+.paper-font-headline {
+  @apply --paper-font-headline;
+}
+
+.paper-font-title {
+  @apply --paper-font-title;
+}
+
+.paper-font-subhead {
+  @apply --paper-font-subhead;
+}
+
+.paper-font-body2 {
+  @apply --paper-font-body2;
+}
+
+.paper-font-body1 {
+  @apply --paper-font-body1;
+}
+
+.paper-font-caption {
+  @apply --paper-font-caption;
+}
+
+.paper-font-menu {
+  @apply --paper-font-menu;
+}
+
+.paper-font-button {
+  @apply --paper-font-button;
+}
+
+
+/*
+ * Shadow
+ */
+
+.shadow-2dp {
+  @apply --shadow-elevation-2dp;
+}
+
+.shadow-3dp {
+  @apply --shadow-elevation-3dp;
+}
+
+.shadow-4dp {
+  @apply --shadow-elevation-4dp;
+}
+
+.shadow-6dp {
+  @apply --shadow-elevation-6dp;
+}
+
+.shadow-8dp {
+  @apply --shadow-elevation-8dp;
+}
+
+.shadow-12dp {
+  @apply --shadow-elevation-12dp;
+}
+
+.shadow-16dp {
+  @apply --shadow-elevation-16dp;
+}
+
+.shadow {
+  display: inline-block;
+  padding: 8px;
+  margin: 16px;
+  height: 50px;
+  width: 50px;
+}
+
+
+/*
+ * Paper Material
+ */
+
+ :host, html {
+  --paper-material: {
+    display: block;
+    position: relative;
+  };
+  --paper-material-elevation-1: {
+    @apply --shadow-elevation-2dp;
+  };
+  --paper-material-elevation-2: {
+    @apply --shadow-elevation-4dp;
+  };
+  --paper-material-elevation-3: {
+    @apply --shadow-elevation-6dp;
+  };
+  --paper-material-elevation-4: {
+    @apply --shadow-elevation-8dp;
+  };
+  --paper-material-elevation-5: {
+    @apply --shadow-elevation-16dp;
+  };
+}
+
+ :host(.paper-material), .paper-material {
+  @apply --paper-material;
+}
+
+ :host(.paper-material[elevation="1"]), .paper-material[elevation="1"] {
+  @apply --paper-material-elevation-1;
+}
+
+ :host(.paper-material[elevation="2"]), .paper-material[elevation="2"] {
+  @apply --paper-material-elevation-2;
+}
+
+ :host(.paper-material[elevation="3"]), .paper-material[elevation="3"] {
+  @apply --paper-material-elevation-3;
+}
+
+ :host(.paper-material[elevation="4"]), .paper-material[elevation="4"] {
+  @apply --paper-material-elevation-4;
+}
+
+ :host(.paper-material[elevation="5"]), .paper-material[elevation="5"] {
+  @apply --paper-material-elevation-5;
+}

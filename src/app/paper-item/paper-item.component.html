@@ -1,0 +1,36 @@
+<h5>Paper Item</h5>
+
+<paper-item>Item</paper-item>
+
+<br />
+
+
+<custom-style>
+  <style is="custom-style">
+    paper-item.fancy {
+      --paper-item-focused: {
+        background: var(--paper-amber-500);
+        font-weight: bold;
+      };
+      --paper-item-focused-before: {
+        opacity: 0;
+      };
+    }
+  </style>
+</custom-style>
+
+<div role="listbox">
+  <paper-item class="fancy">Inbox</paper-item>
+  <paper-item class="fancy">Starred</paper-item>
+  <paper-item class="fancy">Sent mail</paper-item>
+</div>
+
+<h5> Reusable Code:</h5>
+
+<code [innerHTML]="polymerElement"></code>
+<br />
+<br />
+
+<h5>Included files:</h5>
+
+<code [innerHTML]="polymerElementInclude"></code>
